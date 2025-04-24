@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Client_model extends CI_Model {
     public function getClients() {  
-        return $this->db->get('clients')->result();
+        return $this->db->get('clients')->result();  // from code to github
     }
     public function insertClient($data){
         return $this->db->insert('clients', $data); // insert anto cli	

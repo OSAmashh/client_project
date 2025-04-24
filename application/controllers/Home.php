@@ -11,7 +11,7 @@ $client->last_project = $lastProject ? $lastProject->project_name : 'No Project'
 	$data['clients'] = $clients;
 $this->load->view('home_view', $data);
 	} 
-public function add(){
+public function add(){ //oijmovsdmnvlmvdsv
 $this->load->model('Client_model');
 if ($this->input->post()) {
 $data = [

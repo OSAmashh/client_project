@@ -10,7 +10,7 @@ return $this->db->select('projects.*, clients.name as client_name')->from('proje
 	}
     public function addProject($data) {
         return $this->db->insert('projects', $data);
-    }
+    }       //koajdlasmcla
     public function deleteProject($id) {
         return $this->db->delete('projects', ['id' => $id]);
     }
