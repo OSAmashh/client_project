@@ -172,5 +172,11 @@
       </tbody>
     </table> <a href="<?= site_url('home/add'); ?>" class="e">+ Add New Client</a>
   </div>
+
+
+
+	<script > 
+		window.alert(hello); 
+	</script>
 </body>
 </html>
