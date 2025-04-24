@@ -29,7 +29,7 @@ $this->load->view('client/add_view');}
         $this->load->view('client/edit_view', $data);}
 	public function update(): void {
 		$id = $this->input->post('id');
-		$data = [                                                 // kopds
+		$data = [                                                 
 	'name' => $this->input->post('name'),
 		'email' => $this->input->post('email')
 		];
