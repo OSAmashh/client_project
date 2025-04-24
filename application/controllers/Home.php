@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 class Home extends CI_Controller {
 	public function index() {
-$this->load->model('Client_model');
+$this->load->model('Client_model');           // fome code to git hub
 $this->load->model('Project_model');
 $clients = $this->Client_model->getClients();
 foreach ($clients as $client) {
