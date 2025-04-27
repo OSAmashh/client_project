@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>Edit Client</title>
+    <meta charset="UTF-8">    rtyrthr
+    <title>Edit Client</title>   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
     <style>
@@ -110,7 +110,7 @@
 </tbody>
             </table>
 
-            <button type="submit" class="btn w-100 mt-3">UPDATE</button>
+            <button type="submit" class="btn w-100 mt-3">UPDATE</button> 
         </form>
     </div>
 </body>
